@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 80px;
+  width: 100%;
+  display: block;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.container {
+  padding: 0 14px;
+  margin: 0 7vw;
+}
+
+.header-list {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 91.42px;
+  height: auto;
+  margin-right: auto;
+}
+
+.nav_links{
+  text-align: center;
+  padding: 0 0;
+}
+
+.nav_links li{
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0 30px;
+  color: #0C6993;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.nav_links li a:visited{
+  color: #0C6993;
+}
+
+.nav_links a{
+  color: #0C6993;
+}
+
+button{
+  padding: 8px 50px;
+  color: white;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: #0C6993;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+}
+
+.dnl button{
+  padding: 7px 40px;
+  color: #0C6993;
+  font-weight: 500;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  border-style: solid;
+  border-color: #0C6993;
+  border-width: 1px;
+  font-size: 18px;
+  margin: 0 16px;
+}
+
+button: hover{
+  background-color: #0088a9;
+}
+
+.g4b_contact{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1{
+  margin:16px 0 0 0;
+  font-size: 16px;
+  font-weight: 400;
+  color:#364755;
+}
+
+.g4b_image{
+  margin:16px 0 0 0;
+  text-align: center;
+  width: 40%;
+  padding: 0 5%;
+}
+
+.g4b_image img{
+  width: 100%;
+}
+
+.g4b_image p{
+  text-align: left;
+  font-size: 14px;
+  font-weight: 200;
+  color:#364755;
+}
+
+.pipedriveWebForms{
+  text-align: center;
+  width: 50%;
+}
+
+.form{
+  width: 40%;
+  margin-top: 16px;
+  padding: 0 5%;
+  text-align: center;
+}
+
+
+footer {
+  position: relative;
+  height: 230px;
+  background-color: #0C6993;
+}
+
+footer a{
+  color: white;
+}
+
+.company {
+  display: flex;
+  justify-content: flex-end;
+  vertical-align: middle;
+  padding-top: 40px;
+}
+
+.company-info{
+  margin-right: auto;
+}
+
+.company-info img {
+  width: 91.42px;
+}
+
+.company p{
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 200;
+}
+
+.main{
+  padding: 0 30px;
+  margin-right: 24px;
+}
+.menu{
+  padding: 0 30px;
+  margin-right: 24px;
+}
+
+.sub-menu{
+  padding: 0 30px;
+}
+
+.bottom p {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  color: white;
+  font-size: 12px;
+}
