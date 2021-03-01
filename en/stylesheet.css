@@ -7,6 +7,7 @@ a {
   text-decoration: none;
 }
 
+
 header {
   height: 80px;
   width: 100%;
@@ -26,24 +27,19 @@ header {
   width: 100%;
   height: 80px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
-
-.header-logo{
-  display: block;
+.header-logo {
   width: 91.42px;
+  height: auto;
   margin-right: auto;
 }
 
 .nav_links{
-  align-items: flex-end;
-  padding: 0 0;
-}
-
-.nav_links a{
-  color: #0C6993;
+  text-align: center;
+  margin: 0 0;
 }
 
 .nav_links li{
@@ -53,6 +49,14 @@ header {
   color: #0C6993;
   font-size: 18px;
   font-weight: 500;
+}
+
+ul.nav_links{
+  padding-inline-start: 0px;
+}
+
+.nav_links a{
+  color: #0C6993;
 }
 
 .nav_links li a:visited{
@@ -84,62 +88,24 @@ button{
   margin: 0 16px;
 }
 
-button: hover{
-  background-color: #0088a9;
+.top{
+  height: 300px;
+  padding: 180px 0 100px 0;
+  background-image: url(img/internal/top.png);
+  background-position:center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 80px;
+  color: white;
+  text-align: center;
 }
 
-.benefit{
-  height: 480px;
-  margin-top: 80px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  vertical-align: middle;
-}
-
-.benefit-text{
-  height: 480px;
-  width: 50%;
-  margin-right: 0;
-  padding-left: 0;
-  background-color: #CEE6F8;
-}
-
-.benefit-text h2{
-  color: #0C6993;
-  font-size: 28px;
-  font-weight: 400;
-  text-align: left;
-  padding: 100px 0 0 14px;
-  margin-left: 150px;
-  vertical-align: middle;
-}
-
-.benefit-text p{
-  color: #0C6993;
-  font-size: 16px;
+.top h1{
+  font-size: 40px;
   font-weight: 100;
-  margin-left: 164px;
-  line-height: 10px;
-  vertical-align: top;
   text-align: left;
-  vertical-align: middle;
-}
-
-.benefit-image {
-  height: 480px;
-  width: 50%;
-  margin-right: 0;
-  padding-left: 0;
-  background-color: black;
-}
-
-
-.benefit-image img{
-  height: 480px;
-  width: 100%;
-  object-fit: cover;
+  margin: 10px 28px;
+  line-height: 55px;
 }
 
 .btn2 a{
@@ -156,66 +122,44 @@ button: hover{
   background-color: #FFFFFF;
 }
 
-h2{
+
+.brand{
+  padding: 2.5% 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.brand-logo img{
+  max-width: 100%;
+  height: auto:
+  padding: 14px;
+  margin: 0 2px;
+}
+
+.product{
+  padding-bottom: 2.5%;
+}
+
+.product-list{
   text-align: center;
   font-size: 28px;
   color: #0C6993;
   font-weight: 700;
   padding: 0 auto;
-  margin: auto;
-  margin-top: 30px;
+  margin: 0 auto;
 }
 
-.service-logo{
-  height: 141px;
-  margin: 60px auto;
-  display: block;
-  align-items: center;
-}
-
-.concept{
-  height: 480px;
-  background-color: #F5FAFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.box{
-  height: 350px;
-  width: 350px;
-  background-color: white;
-  margin: 14px 14px;
-  border-radius: 14px;
-  display: inline-block;
-  text-align: center;
-}
-
-.box img{
-  height: 90px;
-  width: auto;
-  padding-top: 10%;
-}
-
-
-h3{
-  font-size: 18px;
-  color: #0C6993;
-  font-weight: 700;
-  text-align: center;
-}
-
-.box p{
+.product-detail{
+  color: #393939;
   font-size: 16px;
-  font-weight: 400;
-  color: #364755;
-  padding: 0 10%;
-  margin: auto;
-  text-align: left;
-}
-
-.product{
-  padding-bottom: 2.5%;
+  font-weight: 100;
+  text-align: center;
+  padding: 16px 16px;
+  margin: 0 auto;
 }
 
 .product-info1 {
@@ -252,127 +196,91 @@ h3{
   margin: 1% 0 0 0;
 }
 
-.redeem{
+.benefit{
   height: 480px;
+  margin-bottom: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
 }
 
-.redeem img{
-  height: 80%;
+.benefit-text{
+  height: 480px;
+  width: 50%;
+  margin-right: 0;
+  padding-left: 0;
+  background-color: #CEE6F8;
 }
 
-.redeem p{
-  font-size: 16px;
+.benefit-text h2{
+  color: #0C6993;
+  font-size: 28px;
   font-weight: 400;
-  color: #364755;
-  margin: auto;
   text-align: left;
+  padding: 100px 0 0 14px;
+  margin-left: 150px;
+  vertical-align: middle;
 }
 
-.flow1 h3{
+.benefit-text p{
+  color: #0C6993;
+  font-size: 16px;
+  font-weight: 100;
+  margin-left: 164px;
+  line-height: 24px;
+  vertical-align: top;
   text-align: left;
-  margin-bottom: 0;
+  vertical-align: middle;
 }
 
-.flow2 h3{
-  text-align: left;
-  margin-bottom: 0;
+.benefit-image {
+  height: 480px;
+  width: 50%;
+  margin-right: 0;
+  padding-left: 0;
+  background-color: black;
 }
 
-.flow{
-  height: 80%;
-  display: inline-block;
-  margin: auto 0;
-  padding: 0 14px;
-  align-items: center;
-}
 
-.flow1{
-  height: 40%;
-  padding: 0 10%;
-  margin-top: 10%;
-}
-
-.flow2{
-  height: 40%;
-  padding: 0 10%;
-  margin-top: 5%;
-}
-
-.delivery{
+.benefit-image img{
   height: 480px;
   width: 100%;
-  background-color: #F5FAFF;
-  align-items: center;
-  padding-top: 30px;
+  object-fit: cover;
 }
 
-.deli-box{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.method{
-  height: 350px;
-  width: 525px;
-  background-color: white;
-  margin: 14px 14px;
-  border-radius: 14px;
-  display: inline-block;
+.clients{
+  display: block;
   text-align: center;
+  align-items: center;
 }
 
-.delivery h2{
-  margin-top: 0px;
-  margin-bottom: 24px;
+.clients-text{
+  font-size: 28px;
+  color: #0C6993;
+  font-weight: 700;
+  padding: 0 auto;
+  margin: 0 auto;
+
 }
 
-.method img{
-  height: 70px;
-  width: auto;
-  padding-top: 10%;
-}
-
-
-.method p{
+.clients-detail{
+  color: #393939;
   font-size: 16px;
-  font-weight: 400;
-  color: #364755;
-  padding: 0 20%;
-  margin: auto;
-  text-align: left;
-}
-
-.faq{
-  height: 480px;
-  width: 100%;
+  font-weight: 100;
   text-align: center;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 16px 16px;
+  margin: 0 auto;
 }
 
-.qa{
-  width: 60%;
-  margin: 40px auto;
-  margin-bottom: 60px;
-  text-align:left;
+.clients img{
+  width: 80%;
 }
 
-.qa h3{
-  text-align: left;
-  margin-bottom: 10px;
-}
-
-.qa p{
-  margin-bottom: 14px;
-}
-
-.qa button{
-  margin-top: 30px;
+.pipedriveWebForms{
+  margin-top: 14px;
+  padding: 30px 14px 14px 0;
+  text-align: center;
 }
 
 footer {
