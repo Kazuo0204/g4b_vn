@@ -113,14 +113,7 @@ h2{
   font-weight: bold;
   background-color: #dedede; 
   }
-  
-  @media screen and (max-width: 767px) {
-  .company,
-  .company tr,
-  .company td,
-  .company th {display:block;}
-  .company th {width:auto;}
-  }
+
 
 .benefit-image {
   height: 480px;
