@@ -98,19 +98,10 @@ h2{
   margin: auto;
   margin-top: 100px;
 }
-
-table{
-  text-align: center;
-  font-size: 22px;
-  color: #0C6993;
-  font-weight: 700;
-  padding: 0 auto;
-  margin: auto;
   
   .company {
   text-align: center;
   width: 100%;
-  text-align: center;
   }
   
   .company th,
