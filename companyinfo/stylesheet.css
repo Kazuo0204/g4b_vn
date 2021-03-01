@@ -89,8 +89,19 @@ button: hover{
 
 }
 
+h2{
+  text-align: center;
+  font-size: 28px;
+  color: #0C6993;
+  font-weight: 700;
+  padding: 0 auto;
+  margin: auto;
+  margin-top: 100px;
+}
+
 .company {
   width: 100%;
+  text-align: center;
   }
   
   .company th,
@@ -98,7 +109,6 @@ button: hover{
   border: 1px solid #ccc;
   padding: 22px;
   }
-  
   .company th {
   font-weight: bold;
   background-color: #dedede; 
@@ -141,15 +151,7 @@ button: hover{
   background-color: #FFFFFF;
 }
 
-h2{
-  text-align: center;
-  font-size: 28px;
-  color: #0C6993;
-  font-weight: 700;
-  padding: 0 auto;
-  margin: auto;
-  margin-top: 100px;
-}
+
 
 .service-logo{
   height: 141px;
