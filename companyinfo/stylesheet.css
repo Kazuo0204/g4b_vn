@@ -365,10 +365,11 @@ footer a{
 }
 
 .company {
-  display: flex;
   justify-content: flex-end;
   vertical-align: middle;
   padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .company-info{
