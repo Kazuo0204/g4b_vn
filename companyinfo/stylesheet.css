@@ -383,12 +383,14 @@ footer a{
 }
 
 .company p{
+  display:flex
   text-align: left;
   font-size: 18px;
   color: white;
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: 200;
+  
 }
 
 .main{
