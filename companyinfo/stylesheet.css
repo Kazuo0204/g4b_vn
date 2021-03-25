@@ -382,7 +382,7 @@ footer a{
   width: 91.42px;
 }
 
-.company p{
+.company {
   display:flex
   text-align: left;
   font-size: 18px;
