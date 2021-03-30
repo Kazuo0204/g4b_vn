@@ -111,8 +111,6 @@ button: hover{
   font-size: 28px;
   font-weight: 400;
   text-align: left;
-  padding: 100px 0 0 14px;
-  margin-left: 150px;
   vertical-align: middle;
 }
 
@@ -120,10 +118,13 @@ button: hover{
   color: #0C6993;
   font-size: 16px;
   font-weight: 100;
-  margin-left: 164px;
   vertical-align: top;
   text-align: left;
   vertical-align: middle;
+}
+
+.benefit-text2{
+padding: 100px;
 }
 
 .benefit-image {
