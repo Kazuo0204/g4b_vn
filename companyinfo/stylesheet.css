@@ -99,21 +99,21 @@ h2{
   margin-top: 100px;
 }
   
-  .companyinfo{
-  text-align: center;
-  width: 80%;
+  .compnayinfo-table{
+  text-align: left;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   }
-  
-  .company th,
-  .company td {
+
+  .compnayinfo-table th{
+    font-weight: bold;
+    background-color: #dedede; 
+  }
+
+  .compnayinfo-table td {
   border: 1px solid #ccc;
   padding: 22px;
-  }
-  .company th {
-  font-weight: bold;
-  background-color: #dedede; 
   }
 
 .benefit-image {
@@ -174,7 +174,7 @@ h2{
 
 .box img{
   height: 90px;
-  width: auto;
+  width: auto
   padding-top: 10%;
 }
 
@@ -387,6 +387,11 @@ footer a{
 
 .company-info img {
   width: 91.42px;
+}
+
+.gifteemap {
+  text-align: center;
+  padding: 50px;
 }
 
 
