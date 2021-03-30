@@ -373,6 +373,12 @@ footer a{
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  text-align: left;
+  font-size: 18px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 200;
 }
 
 .company-info{
@@ -383,16 +389,6 @@ footer a{
   width: 91.42px;
 }
 
-.company {
-  display:flex
-  text-align: left;
-  font-size: 18px;
-  color: white;
-  margin-top: 0;
-  margin-bottom: 10px;
-  font-weight: 200;
-  
-}
 
 .main{
   padding: 0 30px;
