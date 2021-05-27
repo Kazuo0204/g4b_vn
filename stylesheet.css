@@ -332,6 +332,10 @@ color: white;
   padding: 0 30px;
 }
 
+.companyinfo-bottom p{
+  font-size: 10px;
+}
+
 .bottom p {
   position: absolute;
   bottom: 0;
