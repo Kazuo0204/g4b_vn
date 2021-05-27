@@ -287,11 +287,9 @@ footer {
   position: relative;
   height: 230px;
   background-color: #0C6993;
-}
-
-footer a{
   color: white;
 }
+
 
 .company {
   display: flex;
