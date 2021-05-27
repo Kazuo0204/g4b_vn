@@ -99,6 +99,7 @@ footer {
   position: relative;
   height: 230px;
   background-color: #0C6993;
+  color: white;
 }
 
 footer a{
@@ -140,6 +141,10 @@ footer a{
 
 .sub-menu{
   padding: 0 30px;
+}
+
+.companyinfo_bottom p{
+  font-size: 10px;
 }
 
 .bottom p {
