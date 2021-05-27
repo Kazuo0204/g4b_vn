@@ -197,6 +197,13 @@ h2{
   padding-top: 10%;
 }
 
+h1{
+  font-size: 20px;
+  color: #0C6993;
+  font-weight: 700;
+  text-align: center;
+}
+
 
 h3{
   font-size: 18px;
@@ -423,7 +430,8 @@ footer a{
 }
 
 }
-.companyinfo_bottom
+
+.companyinfo_bottom{
 color: #FFFFFF
 font-size: 10px;
 
