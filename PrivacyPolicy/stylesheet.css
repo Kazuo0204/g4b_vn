@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0px;
   font-family: Helvetica, Arial;
 }
 
@@ -12,14 +13,36 @@ header {
   width: 100%;
   display: block;
   background-color: rgba(255, 255, 255, 0.9);
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 10;
+}
+
+.navbar {
+  padding: 0 14px;
+  margin: 0 7vw;
 }
 
 .container {
   padding: 0 14px;
   margin: 0 7vw;
+  margin-bottom: 80px;
+}
+
+.container > p {
+  line-height: 1.4em;
+}
+
+.container > h3 {
+  margin-top: 30px;
+}
+
+@media screen and (min-width:640px) {
+  .container {
+    padding: 0 120px;
+    margin: 0 7vw;
+    margin-bottom: 80px;
+  }
 }
 
 .header-list {
@@ -84,7 +107,7 @@ button{
   margin: 0 16px;
 }
 
-button: hover{
+button:hover {
   background-color: #0088a9;
 }
 
@@ -376,7 +399,7 @@ footer a{
 }
 
 .companyinfo_bottom p {
-color: #FFFFFF
+color: #FFFFFF;
 font-size: 10px;
 }
 
