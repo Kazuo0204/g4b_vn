@@ -74,16 +74,13 @@ button{
   font-size: 18px;
 }
 
-.dnl button{
+.dnl {
   padding: 7px 40px;
   color: #0C6993;
   font-weight: 500;
   border-radius: 4px;
   background-color: white;
   cursor: pointer;
-  border-style: solid;
-  border-color: #0C6993;
-  border-width: 1px;
   font-size: 18px;
   margin: 0 16px;
 }
