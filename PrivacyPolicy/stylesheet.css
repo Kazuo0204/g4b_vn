@@ -88,60 +88,6 @@ button: hover{
   background-color: #0088a9;
 }
 
-.benefit{
-  height: 480px;
-  margin-top: 80px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  vertical-align: middle;
-}
-
-.benefit-text{
-  height: 480px;
-  width: 50%;
-  margin-right: 0;
-  padding-left: 0;
-  background-color: #CEE6F8;
-}
-
-.benefit-text h2{
-  color: #0C6993;
-  font-size: 28px;
-  font-weight: 400;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.benefit-text p{
-  color: #0C6993;
-  font-size: 16px;
-  font-weight: 100;
-  vertical-align: top;
-  text-align: left;
-  vertical-align: middle;
-}
-
-.benefit-text2{
-padding: 100px;
-}
-
-.benefit-image {
-  height: 480px;
-  width: 50%;
-  margin-right: 0;
-  padding-left: 0;
-  background-color: black;
-}
-
-
-.benefit-image img{
-  height: 480px;
-  width: 100%;
-  object-fit: cover;
-}
-
 .btn2 a{
   display: block;
   margin-top: 20px;
@@ -433,6 +379,7 @@ footer a{
 color: #FFFFFF
 font-size: 10px;
 }
+
 
 
 .bottom p {
