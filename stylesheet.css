@@ -333,6 +333,11 @@ color: white;
   font-size: 10px;
 }
 
+.footer logo{
+  margin-top:20px;
+  width:124px;
+  position:relative;left:60px;
+
 .bottom p {
   position: absolute;
   bottom: 0;
