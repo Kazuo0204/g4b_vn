@@ -282,7 +282,7 @@ button{
 
 footer {
   position: relative;
-  height: 350px;
+  height: 300px;
   background-color: #0C6993;
   color: white;
 }
@@ -335,7 +335,8 @@ color: white;
 
 .footer logo{
   margin-top:20px;
-  width:124px;
+  width:200px;
+  height:75.67px;
   position:relative;left:60px;
 
 .bottom p {
