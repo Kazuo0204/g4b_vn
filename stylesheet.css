@@ -132,7 +132,7 @@ button{
 
 .brand-logo img{
   max-width: 100%;
-  height: auto:
+  height: auto;
   padding: 14px;
   margin: 0 2px;
 }
@@ -333,11 +333,12 @@ color: white;
   font-size: 10px;
 }
 
-.footer logo{
+.footer logo {
   margin-top:20px;
   width:200px;
   height:75.67px;
   position:relative;left:60px;
+}
 
 .bottom p {
   position: absolute;
